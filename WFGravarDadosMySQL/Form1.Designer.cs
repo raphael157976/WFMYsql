@@ -58,7 +58,6 @@ namespace WFGravarDadosMySQL
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(140, 23);
             this.txtNome.TabIndex = 1;
-           // this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // label2
             // 
@@ -119,6 +118,7 @@ namespace WFGravarDadosMySQL
             this.button2.TabIndex = 8;
             this.button2.Text = "Buscar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // txt_buscar
             // 
@@ -126,6 +126,7 @@ namespace WFGravarDadosMySQL
             this.txt_buscar.Name = "txt_buscar";
             this.txt_buscar.Size = new System.Drawing.Size(233, 23);
             this.txt_buscar.TabIndex = 9;
+            this.txt_buscar.TextChanged += new System.EventHandler(this.txt_buscar_TextChanged);
             // 
             // lst_contatos
             // 
